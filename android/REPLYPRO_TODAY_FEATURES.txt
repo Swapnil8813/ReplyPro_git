@@ -1,0 +1,16 @@
+ReplyPro updated source - August 11, 2026
+
+Preserved/added today:
+- One WhatsApp reply per phone number per calendar day.
+- One SMS reply per phone number per calendar day.
+- WhatsApp and SMS are tracked separately.
+- A second-day reply is only triggered after a new eligible incoming/outgoing call.
+- WhatsApp / WhatsApp Business selector in Settings.
+- Selected WhatsApp app is stored locally and used by WhatsAppLauncher.
+- Attachments continue to use the selected WhatsApp package.
+- Room migration from database version 3 to 4 for messageType.
+- SMS runtime permission check.
+- WhatsApp package visibility declarations for Android 11+.
+
+Important:
+This is the source project. Build and test on the real client/test phone before distributing.

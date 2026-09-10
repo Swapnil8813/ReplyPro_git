@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="replypro_red">#DC2626</color>
+    <color name="replypro_dark">#1F2937</color>
+    <color name="replypro_white">#FFFFFF</color>
+    <color name="replypro_gray">#6B7280</color>
+
+</resources>

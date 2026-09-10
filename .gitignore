@@ -1,0 +1,38 @@
+# Laravel secrets
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Laravel generated files
+backend/vendor/
+backend/node_modules/
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Android signing files
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+# Google / Firebase credentials
+**/google-services.json
+**/service-account*.json
+
+# OS
+.DS_Store
+Thumbs.db
